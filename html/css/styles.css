@@ -42,6 +42,20 @@ th, td {
 th {
   background-color: red
 }
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.galeria img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);
