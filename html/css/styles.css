@@ -29,18 +29,22 @@ body {
 }
 table {
   width: 80%;
-  background-color: rgba(10, 10, 10, 0.5);
+  background-color: rgba(10, 10, 10, 0.8);
+  padding: 4px;
   margin: 2%;
+ 
 }
 th, td {
   width: 25%;
   text-align: left;
   vertical-align: top;
   border-spacing: 0;
-  padding: 4px
+  border-collapse: collapse;
+  border: 1px solid red;
+  
 }
 th {
-  background-color: red
+  padding-top: 4px;
 }
 .galeria {
   display: flex;
